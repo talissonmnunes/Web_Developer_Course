@@ -27,4 +27,16 @@ $(document).ready(function(){
  
   	});
 
+  	var owl = $(".thumbnails").data('owlCarousel');
+
+  	$('#btn-news-prev').on("click", function(){
+
+  		owl.prev();
+  	});
+
+  	$('#btn-news-next').on("click", function(){
+
+  		owl.next();
+  	});
+
 });
