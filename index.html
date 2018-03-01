@@ -3,34 +3,46 @@
 	<head>
 
 		<meta charset="utf-8">
-		<meta name="viewport" content="width: device-width, initial-scale=1">
+		<meta name="viewport" content="width:device-width, initial-scale=1">
 		<title>Orlando City</title>
 		<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/orlando.css">
 		<link rel="stylesheet" href="css/orlando-mobile.css">
 
 	</head>
 	<body>
 
-		<header class="open-menu">
+		<header>
+			
+			<div id="menu-mobile-mask" class="visible-xs"></div>
 
-			<div id="menu-mobile-mask" class="visible-xs">
-				
-			</div>
 			<div id="menu-mobile" class="visible-xs">
 				
-			</div>
+				<ul class="list-unstyled">
+					<li><a href="videos.html">Videos</a></li>
+					<li><a href="#">Tickets</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Schedule</a></li>
+				</ul>
 
-			<div class="container container-logo">
+				<div class="bar-close">
+					<button type="button" class="btn btn-close"><i class="fa fa-close"></i></button>
+				</div>
+
+			</div>
+			
+			<div class="container">
 				<img id="logotipo" src="img/orlando-logo.png" alt="Logotipo">
 			</div>
 
 			<div class="header-black">
 				
 				<div class="container">
-					
+
+					<input type="search" id="input-search-mobile" class="visible-xs" placeholder="search...">
+				
 					<button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
 					<button id="btn-search" type="button"><i class="fa fa-search"></i></button>
 
@@ -105,7 +117,7 @@
 					<h2>Latest News</h2>
 					<hr>	
 				</div>				
-
+				
 				<button type="button" id="btn-news-prev"><i class="fa fa-angle-left"></i></button>
 				<button type="button" id="btn-news-next"><i class="fa fa-angle-right"></i></button>
 
@@ -115,7 +127,7 @@
 							<img src="img/noticia-thumb.jpg" alt="Noticia">
 							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
 							<time>December 21, 2015</time>
-						</div>
+						</div>chevron
 					</div>
 					<div class="item">
 						<div class="item-inner">
@@ -275,13 +287,13 @@
 									</address>
 
 									<p class="hidden-xs"><a href="tel:1855ORLCITY"><i class="fa fa-phone"></i>1.855.ORL.CITY</a></p>
-
+									
 									<div class="row-fluid visible-xs">
 										<div class="col-xs-6">
-											<a class="btn btn-footer"><i class="fa fa-map-marker"></i>Location</a>
+											<a href="#" class="btn btn-footer "><i class="fa fa-map-marker"></i>Location</a>
 										</div>
 										<div class="col-xs-6">
-											<a class="btn btn-footer"><i class="fa fa-phone"></i>Call</a>
+											<a href="#" class="btn btn-footer"><i class="fa fa-phone"></i>Call</a>
 										</div>
 									</div>
 
@@ -318,7 +330,7 @@
 				
 				<div class="container copyright-mobile">
 					
-					<p class="pull-left">Copyright © Orlando City Soccer 2018. All rights reserved.</p>
+					<p class="pull-left">Copyright © Orlando City Soccer 2016. All rights reserved.</p>
 					<p class="pull-right text-roxo">Created by Talisson in Udemy-Course</p>
 
 				</div>
