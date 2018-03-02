@@ -2,7 +2,6 @@
 
 <link rel="stylesheet" href="lib/plyr/dist/plyr.css">
 
-
 <section>
 	
 	<div id="call-to-action">
@@ -85,7 +84,7 @@
 
 </section>
 
-<?php include_once("footer.php");?>	
+<?php include_once("footer.php");?>
 
 <script src="lib/plyr/dist/plyr.js"></script>
 <script>
@@ -141,4 +140,4 @@ $(function(){
 	plyr.setup();//Disparando player PLYR
 
 });
-</script>	
+</script>

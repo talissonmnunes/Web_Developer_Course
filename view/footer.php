@@ -1,4 +1,4 @@
-		<footer>
+<footer>
 			
 			<div class="row row-cinza-claro">
 				
@@ -95,7 +95,7 @@
 				<div class="container copyright-mobile">
 					
 					<p class="pull-left">Copyright © Orlando City Soccer 2016. All rights reserved.</p>
-					<p class="pull-right text-roxo">Created by Talisson in Udemy-Course</p>
+					<p class="pull-right text-roxo">Created by HCODE in Udemy</p>
 
 				</div>
 
@@ -106,6 +106,7 @@
 		<script src="lib/jquery/jquery.min.js"></script>
 		<script src="lib/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="lib/raty/lib/jquery.raty.js"></script>
 		<script src="js/efeitos.js"></script>
 
 	</body>
