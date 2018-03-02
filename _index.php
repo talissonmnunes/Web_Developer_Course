@@ -1,3 +1,21 @@
+<?php 
+
+require_once("inc/configuration.php");
+
+$Sql = new Sql();
+
+$sql->query("SELECT * FROM tb_produtos;");
+
+while($row = mysqli_fetch_array($result)){
+
+	var_dump($row);
+}
+
+exit;
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 	<head>
