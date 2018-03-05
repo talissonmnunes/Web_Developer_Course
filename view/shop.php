@@ -1,6 +1,6 @@
 <?php include_once("header.php");?>
 
-<section  ng-controller="destaque-controller">
+<section ng-controller="destaque-controller">
 	
 	<div class="container" id="destaque-produtos-container">
 
@@ -24,7 +24,7 @@
 						<div class="text-parcelas text-arial-cinza">ou em até {{produto.parcelas}}x de R$ {{produto.parcela}}</div>
 						<div class="text-total text-arial-cinza">total a prazo R$ {{produto.total}}</div>	
 					</div>
-					<a href="#" class="btn btn-comprar text-roxo"><i class="fa fa-shopping-cart"></i> compre agora</a>
+					<a href="carrinhoAdd-{{produto.id_prod}}" class="btn btn-comprar text-roxo"><i class="fa fa-shopping-cart"></i> compre agora</a>
 				</div>
 
 			</div>
